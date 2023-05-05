@@ -6,7 +6,7 @@ menu.addEventListener("click", () => {
   navbar.classList.toggle("change");
   menu.classList.toggle('change')
 });
-// End of Navbar
+
 
 // Section 2 Video
 const video = document.querySelector('.video')
@@ -39,7 +39,7 @@ video.addEventListener('timeupdate', () => {
     video.style.opacity = '.3'
   } 
 })
-// End of Section 2 Video
+
 
 var swiper = new Swiper('.swiper-container', {
   effect: 'coverflow',
